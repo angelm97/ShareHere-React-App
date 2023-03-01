@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+
+.img-logo{
+    width: 21%;
+}
+
+.text-logo{
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    .img-logo{
+        width: 10%;
+    }
+    
+    .text-logo{
+        font-weight: 900;
+        font-size: 1.2rem;
+        margin: 5px;
+    }
+
+    .wd-mb{
+        width: 100%;
+    }
+
+    .user-pic{
+        width: 77%;
+        height: 100%;
+        float: right;
+    }
+  }
