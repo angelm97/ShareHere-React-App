@@ -22,7 +22,7 @@ const Sidebar = ({ closeToggle, user }) => {
           onClick={handleCloseSidebar}
         >
           <img src={logo} alt="logo" className=" img-logo" />
-          <h1 className='text-logo'>ShareHere</h1>
+          <h1 className='text-logo'>MyGallery </h1>
         </Link>
         <div className="flex flex-col gap-5">
 
